@@ -8,7 +8,7 @@
     />
     <div class="overflow-x-auto">
       <table class="table-auto w-full border-collapse border border-gray-300">
-        <thead class="bg-gray-50">
+        <thead class="bg-syca-light-green">
           <tr>
             <th class="px-4 py-2 border border-gray-300 text-left text-sm font-medium text-gray-700">Name</th>
             <th class="px-4 py-2 border border-gray-300 text-left text-sm font-medium text-gray-700">Email</th>

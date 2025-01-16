@@ -7,7 +7,12 @@ export default {
     './app.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "syca-green": "#213a3f",
+        "syca-light-green": "#eefaf3",
+      },
+    },
   },
   plugins: [],
 }

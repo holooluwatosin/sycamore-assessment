@@ -11,7 +11,7 @@
       <input
         type="text"
         v-model="form.firstName"
-        class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+        class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-syca-green focus:border-syca-green"
       />
       <p v-if="errors.firstName" class="text-sm text-red-500 mt-1">
         {{ errors.firstName }}
@@ -24,7 +24,7 @@
       <input
         type="text"
         v-model="form.lastName"
-        class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+        class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-syca-green focus:border-syca-green"
       />
       <p v-if="errors.lastName" class="text-sm text-red-500 mt-1">
         {{ errors.lastName }}
@@ -35,7 +35,7 @@
       <input
         type="email"
         v-model="form.email"
-        class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+        class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-syca-green focus:border-syca-green"
       />
       <p v-if="errors.email" class="text-sm text-red-500 mt-1">
         {{ errors.email }}
@@ -48,7 +48,7 @@
       <input
         type="tel"
         v-model="form.phone"
-        class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+        class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-syca-green focus:border-syca-green"
       />
       <p v-if="errors.phone" class="text-sm text-red-500 mt-1">
         {{ errors.phone }}
@@ -58,7 +58,7 @@
       <label class="block text-sm font-medium text-gray-700 mb-1">State</label>
       <select
         v-model="form.state"
-        class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+        class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-syca-green focus:border-syca-green"
       >
         <option value="">Select State</option>
         <option v-for="state in states" :key="state" :value="state">
@@ -74,7 +74,7 @@
         <input
           type="checkbox"
           v-model="form.active"
-          class="rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500"
+          class="rounded border-gray-300 text-syca-green shadow-sm focus:ring-syca-green"
         />
         <span class="ml-2">Set to Active</span>
       </label>
@@ -85,12 +85,12 @@
       >
       <textarea
         v-model="form.details"
-        class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+        class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-syca-green focus:border-syca-green"
       ></textarea>
     </div>
     <button
       type="submit"
-      class="w-full bg-indigo-600 text-white font-medium py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+      class="w-full bg-syca-green text-white font-medium py-2 px-4 rounded-md hover:bg-syca-light-green hover:text-syca-green focus:outline-none focus:ring-2 focus:ring-syca-green focus:ring-offset-2"
     >
       Submit
     </button>
