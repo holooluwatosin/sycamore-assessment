@@ -4,9 +4,9 @@
       type="text"
       v-model="searchQuery"
       placeholder="Search customers..."
-      class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mb-4"
+      class="block w-full max-w-md px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mb-4"
     />
-    <div class="overflow-x-auto">
+    <div class="overflow-x-auto mb-20">
       <table class="table-auto w-full border-collapse border border-gray-300">
         <thead class="bg-syca-light-green">
           <tr>
